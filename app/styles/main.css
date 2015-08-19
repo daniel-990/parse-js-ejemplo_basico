@@ -1,0 +1,340 @@
+*{
+  margin: 0px auto;
+  padding: 0px auto;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300);
+body{
+	background-color: black;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#h1{
+	position: absolute;
+	top: 100px;
+	bottom: 0px;
+	left: 50px;
+	right: 30px;
+	text-align: center;
+	font-size: 80px;
+}
+#h1_2{
+	position: absolute;
+	top: 100px;
+	bottom: 0px;
+	left: 0px;
+	right: 25px;
+	width: 570px;
+	height: 100px;
+	text-align: center;
+	font-size: 80px;
+	color: #C88445;
+}
+.color{
+	color: #C8A96F;
+}
+h1{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	text-align: center;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-54kywz');
+	src:url('fonts/icomoon.eot?#iefix-54kywz') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?-54kywz') format('truetype'),
+		url('fonts/icomoon.woff?-54kywz') format('woff'),
+		url('fonts/icomoon.svg?-54kywz#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.salir{cursor: pointer;}
+.icon-equalizer:before {
+	content: "\e600";
+	font-size: 40px;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+	top: 25px;
+	left: 95%;
+	right: 0px;
+	bottom: 0px;
+	z-index: 1;
+	color: #ccc;
+	width: 40px;
+	height: 40px;
+}
+
+.icon-switch:before {
+	content: "\e601";
+}
+.icon-power-cord:before {
+	content: "\e602";
+}
+.icon-menu:before {
+	content: "\e603";
+}
+.icon-settings:before {
+	content: "\e604";
+}
+
+ #contenedor{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+ #container{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  #menu_registro{
+	width: 400px;
+	height: 100%;
+	background-color: #868E92;
+	position: absolute;
+	opacity: 0.7;
+	top: 0px;
+	bottom: 0px;
+	left: 100%;
+	right: 0px;
+}
+#formulario{
+	position: absolute;
+	top: 200px;
+	bottom: 0px;
+	left: 50px;
+	right: 31px;
+	width: 150px;
+	height: 300px;
+	padding: 10px;
+}
+
+.input[type="text"] {
+  padding: 10px;
+  border: solid 3px #c9c9c9;
+  transition: border 0.3s;
+}
+.input[type="text"]:focus{
+  border: solid 3px white;
+  border-radius: 5px;
+  outline: none;
+}
+.input[type="password"] {
+  padding: 10px;
+  border: solid 3px #c9c9c9;
+  transition: border 0.3s;
+}
+.input[type="password"]:focus{
+  border: solid 3px white;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn_0{
+	width: 55px;
+	height: 30px;
+	position: absolute;
+	top: 250px;
+	bottom: 0px;
+	left: 5px;
+	right: 100px;
+    border-radius: 5px; 
+    outline: none;
+    background-color: white;
+}
+.btn_1{
+	width: 55px;
+	height: 30px;
+	position: absolute;
+	top: 250px;
+	bottom: 0px;
+	left: 100px;
+	right: 5px;
+	border-radius: 5px; 
+	outline: none;
+	background-color: white;
+}
+.btn_2{
+	width: 55px;
+	height: 30px;
+	position: absolute;
+	top: 200px;
+	bottom: 0px;
+	left: 5px;
+	right: 100px;
+    border-radius: 5px; 
+    outline: none;
+    background-color: white;
+}
+#container > #menu_registro > #formulario > ul, li{
+	list-style: none;
+	display: inline !important;
+}
+
+#formulario_2{
+	position: absolute;
+	top: 200px;
+	bottom: 0px;
+	left: 0px;
+	right: 31px;
+	width: 150px;
+	height: 300px;
+	padding: 10px;
+}
+
+  #contenedor_login{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*background-color: #B7B6C2;*/
+  }
+
+  #imagen{
+  	position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+    background-image: url(http://www.pic2014.com/wp-content/uploads/2014-Photo-City-Street-Lights-Night.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    opacity: 0.7;
+  }
+
+ #img_0{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 100%;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+    background-image: url(https://dl.dropboxusercontent.com/u/39418872/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    opacity: 0.7;
+  }
+  #img_1{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 100%;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(http://7-themes.com/data_images/out/50/6940015-cat-city-street-night-lights.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    opacity: 0.7;
+  }
+  #img_2{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 100%;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(http://7-themes.com/data_images/out/47/6930588-foggy-night-bridge-street-lights.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    opacity: 0.7;
+  }
+  #img_3{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 100%;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(http://www.pic2014.com/wp-content/uploads/2014-New-York-City-Street-Night-Lights.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    opacity: 0.7;
+  }
+  #img_4{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 100%;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(http://images.forwallpaper.com/files/images/8/89a4/89a43856/125479/city-street-night.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+    opacity: 0.7;
+  }
+
+#notas{
+  position: absolute;
+  top: 186px;
+  bottom: 0px;
+  left: 0px;
+  right: 600px;
+  width: 200px;
+  height: 100px;
+}
+#area_texto{
+  margin-top: 4px;
+  margin-left: 2px;
+  width: 500px;
+  height: 400px;
+  background-color: #FCF0CA;
+  border: 1px solid black;
+
+    overflow: hidden;
+    overflow: scroll;
+
+}
+
+#contenedor_txt{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: -165px;
+  right: 0px;
+  width: 500px;
+  height: 300px;
+}
+
+
